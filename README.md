@@ -12,26 +12,46 @@ Essa é uma aplicação que usa JavaScript como linguagem principal com o objeti
 ## **Requisitos para uso a partir deste repositório:**
 1. Node JS e npm instalados em sua máquina: **12.16.1 (Versão recomendada)**
 * Para instalação do node utilize:
+
 `sudo apt update`
+
 e depois
+
 `sudo apt install nodejs`
+
 verifique a versão usando
+
 `node -v`
+
 * Para instalação do npm utilize:
+
 `sudo apt install npm`
+
 2. yarn instalado em sua máquina
+
 * Utilize o seguinte comando para instalação:
+
 `sudo apt install yarn`
 
 ## **Para execução do projeto:**
+
 1. Baixe o atual repositório em sua máquina da maneira que preferir (3 modos abaixo):
+
 * **Através do git:**
-* copie o link do repositorio, abra seu terminal navegue até a pasta onde deseja hospedar o projeto e digite o comando:
+
+*   copie o link do repositorio, abra seu terminal navegue até a pasta onde deseja hospedar o projeto e digite o comando:
+
 `git clone https://github.com/viniciussaturnino/ONGApp`
-* **Através de um fork desse repositório:**
-* A direita do nome do repositório há um botão `fork`, clique nele e estará em seu perfil após esse processo. Repita os mesmos passos do item anterior usando o link do fork que estará em seu repositório
-* **Através de download do repositório:**
-* A direita na pagina inicial do repositório há um botão verde `clone or download`, clique nele e faça o download em ZIP do projeto. Descompacte na pasta onde foi baixado.
+
+*  **Através de um fork desse repositório:**
+
+*   A direita do nome do repositório há um botão `fork`, clique nele e estará em seu perfil após esse processo. Repita os mesmos passos do item anterior usando o link do fork que estará em seu repositório
+
+*  **Através de download do repositório:**
+
+*   A direita na pagina inicial do repositório há um botão verde `clone or download`, clique nele e faça o download em ZIP do projeto. Descompacte na pasta onde foi baixado.
+
 2. Abra **dois** terminais, em um deles navegue até a pasta do projeto usando `cd` e execute o comando `cd backend` para entrar na pasta do backend da aplicação. Em seguida execute `npm start`. Faça o mesmo no **outro** terminal para o frontend.
 Após executar o `npm start` no terminal do frontend você será redirecionado para a página web no seu navegador.
+
 3. Para executar a parte mobile é necessário que tenha o app "expo" instalado no seu dispositivo (poderá obtê-lo na sua loja de apps). Após a obtenção do "expo" navegue até a pasta mobile do projeto em um outro terminal e execute `yarn start`, você será redirecionado para uma página na web. Espere alguns segundo até aparecer um QR Code na tela que deverá ser scaneado pela camera do seu dispositivo. Você sera redirecionado para o app expo com a aplicação mobile desse repositório.
