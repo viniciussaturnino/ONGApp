@@ -12,9 +12,13 @@ Essa é uma aplicação que usa JavaScript como linguagem principal com o objeti
 ## **Requisitos para uso a partir deste repositório:**
     1. Node JS e npm instalados em sua máquina: **12.16.1 (Versão recomendada)**
         * Para instalação do node utilize:
-            `sudo apt update`
+            ```
+            sudo apt update
+            ```
             e depois
-            `sudo apt install nodejs`
+            ```
+            sudo apt install nodejs
+            ```
             verifique a versão usando
             `node -v`
         * Para instalação do npm utilize:
