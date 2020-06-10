@@ -28,7 +28,9 @@ Essa é uma aplicação que usa JavaScript como linguagem principal com o objeti
 
 *  **Através de download do repositório:** A direita na pagina inicial do repositório há um botão verde **clone or download**, clique nele e faça o download em ZIP do projeto. Descompacte na pasta onde foi baixado.
 
-2. Abra **dois** terminais, em um deles navegue até a pasta do projeto usando `cd` e execute o comando `cd backend` para entrar na pasta do backend da aplicação. Em seguida execute `$ npm start`. Faça o mesmo no **outro** terminal para o frontend.
+2. Após clonar o repositório, navegue até a pasta do projeto usando `cd` e execute o comando `cd backend` para entrar na pasta do backend da aplicação. Em seguida execute `$ npm install`. Faça o mesmo no para o frontend.
+
+3. Você precisará de **dois** terminais (um para execução do backend e outro para o frontend), em um deles navegue até a pasta do backend usando `cd`. Em seguida execute `$ npm start`. Faça o mesmo no **outro** terminal para o frontend.
 Após executar o `$ npm start` no terminal do frontend você será redirecionado para a página web no seu navegador.
 
-3. Para executar a parte mobile é necessário que tenha o app **"expo"** instalado no seu dispositivo (poderá obtê-lo na sua loja de apps). Após a obtenção do **"expo"** navegue até a pasta mobile do projeto em um outro terminal e execute `$ yarn start`, você será redirecionado para uma página na web. Espere alguns segundo até aparecer um QR Code na tela que deverá ser scaneado pela camera do seu dispositivo. Você sera redirecionado para o app expo com a aplicação mobile desse repositório.
+3. Para executar a parte mobile é necessário que tenha o app **"expo"** instalado no seu dispositivo (poderá obtê-lo na sua loja de apps). Após a obtenção do **"expo"** navegue até a pasta mobile do projeto em um outro terminal e execute `$ yarn start`, você será redirecionado para uma página na web. Espere alguns segundos até aparecer um QR Code na tela que deverá ser scaneado pela camera do seu dispositivo. Você sera redirecionado para o app expo com a aplicação mobile desse repositório.
