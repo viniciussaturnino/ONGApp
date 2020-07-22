@@ -1,8 +1,14 @@
 # ONG App
 
+<h1 align="center" >
+    <img src="./frontend/src/assets/logo.svg" />
+</h1>
+
 Essa é uma aplicação que usa JavaScript como linguagem principal com o objetivo de desenvolver um sistema para ONG's. O sistema consiste, basicamente, de uma aplicação web conectada a um app mobile que permite o cadastro de ONG's através do site que, por sua vez, cadastram casos onde será descrito a natureza de algum problema. Esses casos serão apresentados no app mobile para usuários que tem como objetivo contribuir de alguma forma para determinado caso de determinada ONG. A aplicação foi desenvolvida na Semana Omnistack 11.0 da Rocketseat como estudo.
 
-<img src="./demo/demo.gif"/>
+<h1 align="center" >
+    <img src="./demo/demo.gif"/>
+</h1>
 
 ## **Tecnologias utilizadas:**
 * JavaScript
